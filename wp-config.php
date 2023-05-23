@@ -20,8 +20,6 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-
-
 $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
 $server_ = $url["host"];
@@ -45,6 +43,7 @@ define( 'DB_PASSWORD', $password_);
 
 /** Database hostname */
 define( 'DB_HOST', $server_ );
+
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
