@@ -28,6 +28,8 @@ $username_ = $url["user"];
 $password_ = $url["pass"];
 $db_ = substr($url["path"], 1);
 
+$cfg['Servers'][$i]['ssl'] = false;
+
 
 /**
  * First server
